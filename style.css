@@ -130,13 +130,14 @@ img {
 
 /* Buttons */
 .btn {
-  padding: 18px 20px;
-  font-weight: 700;
+  padding: 15px 12px 15px 12px;
+  font-weight: 500; 
+  font-size: 14px; 
 }
 
 .btn-brand {
   background-color: beige;
-  border-color: beige;
+  border-radius: 0%;
   color: var(--color-base2);
 }
 
@@ -180,10 +181,6 @@ img {
   transform: scale(1.03);
 }
 
-/* .progress-wrapper{
-  padding: 5px;
-  margin: 10px 0 10px 0;
-} */
 .progress {
   background-color: var(--color-base2);
   height: 10px; 
@@ -207,10 +204,11 @@ img {
   font-size: 16px;
   align-items: center;
   justify-content: center;
+  color: var(--color-brand2);
 }
 
 .icon {
-  font-size: 16px;
+  font-size: 14px;
   align-items: center;
   justify-content: center;
 }
